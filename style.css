@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.mainContainer {
+    height: 100%;
+    width: 100%;
+    border-style: ridge;
+}
+
+.nav {
+    height: 10vh;
+    background-color: rgb(21, 21, 21);
+    color:rgb(54, 228, 228);
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 2px solid rgb(107, 107, 107);
+    font-family: 'Edu SA Beginner', cursive;
+    border: groove px 10px 5px 10px;
+}
+
+.subContainer {
+    height: 120vh;
+    width: auto;
+    background-color: rgb(56, 56, 56);
+    display: flex;
+    font-family: 'Edu SA Beginner', cursive; 
+    
+       
+}
+
+.edit, .view {
+    color: rgb(54, 228, 228);
+    width: 50%;
+    background-color: rgb(61, 61, 61);
+    border: groove 2px solid rgb(130, 130, 130);
+    font-family: 'Edu SA Beginner', cursive;  
+     
+  
+}
+.view {background-color: rgb(151, 247, 229);
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#viewContainer {
+    color: rgb(44, 41, 41);
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.subNav {
+    padding-top: 15px;
+    padding-left: 10px;
+    height: 5%;
+    width: auto;
+    font-size: 25px;
+    background-color: rgb(41, 41, 41);
+    border-style: groove ;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+#editContainer {
+    color: rgb(237, 243, 241);
+    font-size: 30px;
+    font-family: 'Edu SA Beginner', cursive;    
+    background-color: rgb(72, 72, 72);
+    height: 100vh;
+    width: 100%;
+    padding: 3px;
+    
+}
